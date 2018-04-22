@@ -1,0 +1,20 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/lumen_bg.qm</file>
+        <file alias="de">locale/lumen_de.qm</file>
+        <file alias="en">locale/lumen_en.qm</file>
+        <file alias="es">locale/lumen_es.qm</file>
+        <file alias="fi">locale/lumen_fi.qm</file>
+        <file alias="fr">locale/lumen_fr.qm</file>
+        <file alias="it">locale/lumen_it.qm</file>
+        <file alias="ja">locale/lumen_ja.qm</file>
+        <file alias="pl">locale/lumen_pl.qm</file>
+        <file alias="pt">locale/lumen_pt.qm</file>
+        <file alias="ru">locale/lumen_ru.qm</file>
+        <file alias="sk">locale/lumen_sk.qm</file>
+        <file alias="sv">locale/lumen_sv.qm</file>
+        <file alias="vi">locale/lumen_vi.qm</file>
+        <file alias="zh_CN">locale/lumen_zh_CN.qm</file>
+        <file alias="zh_TW">locale/lumen_zh_TW.qm</file>
+    </qresource>
+</RCC>

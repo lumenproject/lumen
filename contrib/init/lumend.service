@@ -1,0 +1,22 @@
+[Unit]
+Description=Lumen's distributed currency daemon
+After=network.target
+
+[Service]
+User=lumencore
+Group=lumencore
+
+Type=forking
+PIDFile=/var/lib/lumend/lumend.pid
+ExecStart=/usr/bin/lumend -daemon -pid=/var/lib/lumend/lumend.pid \
+-conf=/etc/lumencore/lumen.conf -datadir=/var/lib/lumend -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

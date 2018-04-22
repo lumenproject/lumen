@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Lumen
+Comment=Lumen P2P Cryptocurrency
+Exec=lumen-qt %u
+Terminal=false
+Type=Application
+Icon=lumen128
+MimeType=x-scheme-handler/lumen;
+Categories=Office;Finance;
+Name[en_US]=lumen-qt.desktop

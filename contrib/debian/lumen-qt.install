@@ -1,0 +1,6 @@
+usr/local/bin/lumen-qt usr/bin
+share/pixmaps/lumen32.xpm usr/share/pixmaps
+share/pixmaps/lumen16.xpm usr/share/pixmaps
+share/pixmaps/lumen128.png usr/share/pixmaps
+debian/lumen-qt.desktop usr/share/applications
+debian/lumen-qt.protocol usr/share/kde4/services/
