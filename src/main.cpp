@@ -1775,7 +1775,7 @@ CAmount GetMasternodePayment(int nHeight, CAmount blockValue)
 {
     int64_t ret = 0;
     
-	ret = blockValue*(95/100); // 95%
+	ret = blockValue/100 * 95; // 95%
 
     return ret;
 }
